@@ -32,3 +32,9 @@ workHours.forEach(function(timeBlock, index){
         '</textarea><div class="col-1"><button class="saveBtn btn-block"type="submit"><i class="bi bi-save"></i></button></div></div></div>';
     $(".container").append(row);
 });
+
+// save work hour descriptions 
+let saveTasks = function(){
+    localStorage.setItem("workTasks",JSON.stringify(workHours));
+}
+saveTasks();
