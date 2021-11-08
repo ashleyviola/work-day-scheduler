@@ -26,8 +26,7 @@ $(".saveBtn").on("click", function(){
 
 function hourTracker() {
     // get current number of hours 
-    // var currentHour = moment().hour();
-    currentHour = 11;
+    var currentHour = moment().hour();
     console.log(currentHour);
     
     // loop over time blocks 
