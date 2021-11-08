@@ -24,6 +24,7 @@ $(".saveBtn").on("click", function(){
         localStorage.setItem(time, text);
 });
 
+
 function hourTracker() {
     // get current number of hours 
     var currentHour = moment().hour();
